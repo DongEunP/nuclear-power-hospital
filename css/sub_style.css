@@ -1,0 +1,114 @@
+/* 공통 */
+
+section{
+  width: 100%;
+  min-height: 960px;
+}
+.sec-wrap{
+  background-color: #F9F6F1;
+}
+
+/* main-visual */
+
+.main-visual img{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.8;
+}
+.visual-text{
+  position: absolute;
+  text-align: center;
+  left: calc(50% - 198px);
+  top: calc(50% - 71px);
+}
+.visual-text h2{
+  font-size: 5.5rem;
+  color: white;
+}
+.visual-text p{
+  font-size: 1.125rem;
+  color: white;
+}
+@keyframes visual-text {
+  0%{
+    top: calc(50%);
+    opacity: 0;
+  }
+  50%{
+    opacity: 50%;
+  }
+  100%{
+    top: calc(50% - 71px);
+    opacity: 100%;
+  }
+}
+
+
+/* section1 */
+.sec1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec1-text-wrap{
+  display: flex;
+  flex-direction: column;
+}
+.sec1-text-wrap .ppp{
+  display: none;
+}
+.sec1-name-wrap{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.sec1-img{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end
+}
+.sec1-img img{
+max-width: 100%;
+}
+.sec1-img-text{
+  display: flex;
+}
+.sec1-img-text p:last-child{
+  font-weight: 900;
+  padding-left: 10px;
+}
+.sec1 .text-line:first-child{
+  display: none;
+}
+
+
+/* section2 */
+
+.sec2{
+  min-height: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.sec2-img-wrap{
+  max-width: 70%;
+  margin: 0 auto;
+
+}
+.slider-for{
+  width: 100%;
+  height: 50%;
+}
+.sec2-text-wrap{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

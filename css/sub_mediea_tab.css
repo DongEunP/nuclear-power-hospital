@@ -1,0 +1,253 @@
+@media screen and (max-width: 1280px) {
+
+
+  h2{
+    font-size: 1.125rem;
+  }
+  .text-line{
+    margin: 0 25px;
+  }
+  p{
+    font-size: 0.875rem !important;
+  }
+
+  /* main visual */
+  .out .logo{
+    margin-left: 20px;
+  }
+  .main-visual h2{
+    font-size: 2.375rem;
+  }
+  .visual-text{
+    left: calc(50% - 143px);
+    top: calc(50% - 34px);
+  }
+
+  .out{
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+  }
+  .out .nav li{
+    display: none;
+  }
+  .gnb .out .nav, .search div i, .search .hbg i{
+    color: #4B4949;
+  }
+  .out .logo img{
+    opacity: 0;
+    margin: 0;
+  }
+  .logo{
+    width: 150px;
+    background-image: url(../logo/logo-main01.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    margin: 12px 0 0 38px;
+  }
+  .search .hbg{
+    display: block;
+  }
+  .media-right-gnb{
+    top: 80px;
+    right: 0;
+  }
+  .media-right-gnb .top{
+    display: none;
+  }
+  .media-top{
+    display: block;
+  }
+  .right-gnb{
+    display: none;
+  }
+  .media-right-gnb-contr{
+    width: 100vw;
+    height: 380px;
+    border-radius: 0;
+  }
+  .media-right-gnb-contr ul{
+    padding-top: 35px;
+  }
+  .media-right-gnb-contr ul li:not(:first-child){
+    padding-top: 40px;
+  }
+  .media-right-gnb-contr a{
+    font-size: 1rem;
+  }
+  @keyframes visual-text {
+    0%{
+      top: calc(50%);
+      opacity: 0;
+    }
+    50%{
+      opacity: 50%;
+    }
+    100%{
+      top: calc(50% - 34px);
+      opacity: 100%;
+    }
+  }
+
+  /* section1 */
+  .sec1-img img{
+    max-width: 70%;
+    }
+  .sec1-text-wrap .scroll-text{
+    width: 100%;
+    height: 500px;
+    overflow-x:hidden
+  }
+
+  /* section2 */
+  .sec2-img-wrap{
+  max-width: 100%;
+  height: 100%;
+  }
+
+  /* footer */
+  footer{
+    /* height: 480px; */
+    margin: 0;
+  }
+  footer h3{
+    font-size: 1.125rem;
+  }
+  footer .logo{
+    margin: 0;
+  }
+  .foot-profile ul li:not(:first-child)::before{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px){
+  .container{
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  p{
+    font-size: 0.875rem;
+  }
+  .visual-text p{
+    font-size: 0.875rem;
+  }
+  .visual-text h2{
+    font-size: 1.875rem;
+  }
+  h2{
+    font-size: 1.125rem;
+  }
+  .text-line:first-child{
+    width: 60px;
+    display: block !important;
+    margin: 0 10px 0 0;
+  }
+  .text-line:last-child{
+    width: 60px;
+    margin: 0 0 0 10px;
+  }
+
+  /* main-visual */
+  .visual-text {
+    left: calc(50% - 130px);
+    top: calc(50% - 31.5px);
+  }
+  @keyframes visual-text {
+    0%{
+      top: calc(50%);
+      opacity: 0;
+    }
+    50%{
+      opacity: 50%;
+    }
+    100%{
+      top: calc(50% - 31.5px);
+      opacity: 100%;
+    }
+  }
+
+  /* sec1 */
+  .sec1{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .sec1 .sec1-text-wrap{
+    align-items: center;
+  }
+  .scroll-text{
+    height: 400px;
+  }
+  .sec1-img{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sec1-name-wrap{
+    margin-bottom: 20px;
+  }
+
+  /* section2 */
+  .sec2{
+    display: flex;
+    justify-content: center;
+  }
+  .sec2 .sec2-text-wrap{
+    margin-bottom: 20px;
+  }
+
+  /* footer */
+  footer{
+    height: 300px;
+  }
+  .foot-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .tell{
+    height: 100%;
+  }
+  .foot-tell-wrap{
+    margin: 0 auto;
+  }
+  .tell{
+    margin-bottom: 10px;
+  }
+  .foot-tell-wrap div:first-child{
+    display: block;
+    margin-right: 20px;
+    margin-left: 0;
+  }
+  .tell{
+    text-align: center;
+  }
+  .tell p:first-child{
+    display: none;
+  }
+  .foot-icon{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer p, li{
+    font-size: 0.5rem !important;
+  }
+  footer h3{
+    font-size: 0.875rem;
+  }
+  footer .num{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  footer .logo{
+    width: 100px;
+    background-image: none;
+  }
+  footer .sns img{
+    width: 25px;
+  }
+}
+
